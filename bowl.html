@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 500px;
+            height: 10px;
+            background-color: tomato;
+            margin-top: 50vh;
+            position: absolute;
+            margin-left:75vh ;
+            border-radius: 40px;
+        }   
+        body{
+            background-color: black;
+        }
+        .bowl1{
+            height: 70px;
+            width: 70px;
+            background-color: royalblue;
+            position: absolute;
+            margin-top: 40vh;
+            margin-left:80vh ;
+            border-radius: 50%;
+            animation: balls 1s linear infinite;
+        }
+        @keyframes balls {
+            0%{
+                transform: translateY(0)
+            }
+            50%{
+                transform: translateY(-150px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+        .bowl2{
+            height: 70px;
+            width: 70px;
+            background-color: tomato;
+            position: absolute;
+            margin-top: 40vh;
+            margin-left:95vh ;
+            border-radius: 50%;
+            animation: ball2 2s linear infinite;
+        }
+        @keyframes ball2 {
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-150px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+        /* @keyframes example 50% {
+            
+        } */
+        
+        .bowl3{
+            height: 70px;
+            width: 70px;
+            background-color: yellow;
+            position: absolute;
+            margin-top: 40vh;
+            margin-left:110vh ;
+            border-radius: 50%;
+            animation: ball3 0.9s linear infinite;
+        }
+        @keyframes ball3 {
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-150px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+        .bowl4{
+            height: 70px;
+            width: 70px;
+            background-color:green;
+            position: absolute;
+            margin-top: 40vh;
+            margin-left:125vh ;
+            border-radius: 50%;
+            animation: ball4 1s linear infinite;
+        }
+          @keyframes  ball4{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-150px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+          }
+          .bowl5{
+            height: 70px;
+            width: 70px;
+            background-color:burlywood;
+            position: absolute;
+            margin-top: 40vh;
+            margin-left:140vh ;
+            border-radius: 50%;
+            animation: ball4 1.6s linear infinite;
+        }
+          @keyframes  ball4{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-150px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bowl1"></div>
+    
+     <div class="bowl2"></div>
+     <div class="bowl3"></div>
+     <div class="bowl4"></div>
+     <div class="bowl5"></div>
+     <div class="main"></div>
+     
+</body>
+</html>
